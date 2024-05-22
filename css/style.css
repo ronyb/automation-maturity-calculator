@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#calc-table {
+    margin: auto;
+}
+
+#calc-table td {
+    max-width: 200px;
+}
+
+table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+#score-div {
+    text-align: center;
+}
+
+.q-radio {
+    display: none;
+}
+
+.yes-cell:hover {
+    border: 2px solid #339933;
+    background-color: #ccffcc;
+    cursor: pointer;
+}
+
+.no-cell:hover {
+    border: 2px solid #ff8c1a;
+    background-color: #ffe6cc;
+    cursor: pointer;
+}
+
+.yes-cell.selected {
+    border: 2px solid #339933;
+    background-color: #ccffcc;
+}
+
+.no-cell.selected {
+    border: 2px solid #ff8c1a;
+    background-color: #ffe6cc;
+}
+
+.question-cell {
+    background-color: #DDD;
+}
+
+.number-cell {
+    background-color: #DDD;
+    font-weight: bold;
+}

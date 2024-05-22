@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body dir="rtl">
+    <div id="main_container">
+    <table id="calc-table">
+        <tr>
+            <td class="number-cell">1</td>
+            <td class="question-cell">האם נבחרו הטכנלוגיות הראשיות עבור פרויקט האוטומציה (שפת פיתוח, כלים, ספריות תוכנה מרכזיות וכו')?</td>
+            <td class="yes-cell">כן, נבחרה שפת פיתוח ראשית, כלים וספריות תוכנה מרכזיות שישמשו בפרויקט.</td>
+            <td class="no-cell">לא, עדיין לא ברור באיזה טכנולוגיות נכון להשתמש לצורך פיתוח הפרויקט.</td>
+            </td>
+        </tr>
+        <tr>
+            <td class="number-cell">2</td>
+            <td class="question-cell">האם החלה עבודת פיתוח לאוטומציה של בדיקות?</td>
+            <td class="yes-cell">כן, נעשתה עבודה כלשהי להתנעת פרויקט אוטומציה של בדיקות</td>
+            <td class="no-cell">לא, אין אוטומציה של בדיקות אוטומטיות כלל</td>
+        </tr>
+        <tr>
+            <td class="number-cell">3</td>
+            <td class="question-cell">האם הוגדרה ארכיטקטורת תוכנה לשימוש בפרויקט?</td>
+            <td class="yes-cell">כן, נבחרה ארכיטקטורת תוכנה לפרויקט</td>
+            <td class="no-cell">לא, עדיין לא ברור מהי ארכיטקטורת התוכנה הנכונה עבור הפרויקט</td>
+        </tr>
+        <tr>
+            <td class="number-cell">4</td>
+            <td class="question-cell">האם פותחו כבר לפחות 50 בדיקות אוטומטיות?</td>
+            <td class="yes-cell">כן, יש לנו כבר לפחות 50 בדיקות אוטומטיות</td>
+            <td class="no-cell">לא, עדיין אין לנו 50 בדיקות אוטומטיות</td>
+        </tr>
+        <tr>
+            <td class="number-cell">5</td>
+            <td class="question-cell">האם הבדיקות האוטומטיות הקיימות מחוברות למערכת CI/CD או למערכת תזמון אחרת?</td>
+            <td class="yes-cell">כן, קיים חיבור של הבדיקות למערכת CI/CD או למערכת תזמון כלשהי</td>
+            <td class="no-cell">לא, עדיין לא קיים חיבור של הבדיקות למערכת CI/CD או למערכת תזמון כלשהי</td>
+        </tr>
+        <tr>
+            <td class="number-cell">6</td>
+            <td class="question-cell">האם קיימת מערכת דוחות איכותית לאיסוף וניתוח תוצאות ריצה?</td>
+            <td class="yes-cell">כן, האוטומציה מפיקה דוחות איכותיים ומפורטים</td>
+            <td class="no-cell">לא, האוטומציה עדיין לא יודעת להפיק דוחות אינפורמטיביים מספיק</td>
+        </tr>
+        <tr>
+            <td class="number-cell">7</td>
+            <td class="question-cell">האם הבדיקות האוטומטיות החליפו את הבדיקות הידניות לחלוטין?</td>
+            <td class="yes-cell">כן, כבר אין לנו צורך בבדיקות ידניות. האוטומציה מכסה את כל מה שיש לבדוק</td>
+            <td class="no-cell">לא, כיסוי האוטומציה עדיין לא מלא, והאוטומציה עדיין לא החליפה את הבדיקות הידניות</td>
+        </tr>
+        <tr>
+            <td class="number-cell">8</td>
+            <td class="question-cell">האם קיימת תמיכה בהרצה מקבילית של הבדיקות לצורך קיצור זמני הריצה?</td>
+            <td class="yes-cell">כן, פותח פתרון התומך בהרצה מקבילית של הבדיקות האוטומטיות</td>
+            <td class="no-cell">לא, ריצה מקבילית עדיין לא נתמכת או מוגבלת מאוד</td>
+        </tr>
+        <tr>
+            <td class="number-cell">9</td>
+            <td class="question-cell">האם הבדיקות האוטומטיות משמשות במתכונת Continuous Integration לאחר כל ביצוע שינוי בקוד המוצר?</td>
+            <td class="yes-cell">כן, לאחר כל שינוי בקוד המוצר, הבדיקות האוטומטיות רצות במסגרת תהליך CI</td>
+            <td class="no-cell">לא, עדיין אין קישור בין הבדיקות האוטומטיות לתהליכי CI המורצים לאחר ביצוע שינויים בקוד המוצר</td>
+        </tr>
+        <tr>
+            <td class="number-cell">10</td>
+            <td class="question-cell">האם יש מסמכי בדיקות הכוללים אפיון ופירוט עבור כל הבדיקות המיועדות לאוטומציה?</td>
+            <td class="yes-cell">כן, כל הבדיקות המיועדות לאוטומציה ממוסמכות ומתועדות היטב וברמת פירוט מספקת</td>
+            <td class="no-cell">לא, עדיין לא נעשתה אצלנו עבודה מסודרת לתיעוד ופירוט הבדיקות המיועדות לאוטומציה</td>
+        </tr>
+        <tr>
+            <td class="number-cell">11</td>
+            <td class="question-cell">האם הבדיקות האוטומטיות הקיימות יציבות ומספקות תוצאות עקביות וברמת אמינות גבוהה?</td>
+            <td class="yes-cell">כן, האוטומציה יציבה, מספקת תוצאות עקביות וברמת אמינות גבוהה</td>
+            <td class="no-cell"></td>
+        </tr>
+        <tr>
+            <td class="number-cell">12</td>
+            <td class="question-cell">האם קיימות בעיות כלשהן בנוגע לבדיקות האוטומטיות הקיימות כדוגמת בעיות איטיות / קושי בתחזוקה והרחבה של המערכת / קושי בהבנת הסיבה לכישלון טסטים?</td>
+            <td class="yes-cell"></td>
+            <td class="no-cell"></td>
+        </tr>
+        <tr>
+            <td class="number-cell">13</td>
+            <td class="question-cell">האם קיים כיסוי לכל מגוון הממשקים הרלוונטיים? (לדוגמא, יש אוטומציה לבדיקות UI וגם אוטומציה לבדיקות API)</td>
+            <td class="yes-cell"></td>
+            <td class="no-cell"></td>
+        </tr>
+        <tr>
+            <td class="number-cell">14</td>
+            <td class="question-cell">האם יש בחברה כוח אדם מיומן לפיתוח טסטים חדשים ותחזוקה של המערכת הקיימת?</td>
+            <td class="yes-cell"></td>
+            <td class="no-cell"></td>
+        </tr>
+        <tr>
+            <td class="number-cell">15</td>
+            <td class="question-cell">האם יש בחברה כוח אדם מיומן לצורך הפעלת ריצות אוטומציה וחקירת תוצאות הריצה (שלא מקרב מפתחי האוטומציה)?</td>
+            <td class="yes-cell"></td>
+            <td class="no-cell"></td>
+        </tr>
+        <tr>
+            <td class="number-cell">16</td>
+            <td class="question-cell">האם המפתח הראשי של מערכת האוטומציה, זה שתכנן ופיתח את התשתיות, עדיין מועסק בחברה? האם יש מוביל טכני / סמכות מקצועית לפרויקט?</td>
+            <td class="yes-cell"></td>
+            <td class="no-cell"></td>
+        </tr>
+        <tr>
+            <td class="number-cell">17</td>
+            <td class="question-cell">האם הרמה המקצועית/טכנית של מפתחי האוטומציה הקיימים בצוות גבוהה מספיק?</td>
+            <td class="yes-cell"></td>
+            <td class="no-cell"></td>
+        </tr>
+        <tr>
+            <td class="number-cell">18</td>
+            <td class="question-cell">האם גורמים שמחוץ לצוות הבדיקות רתומים לשימוש במערכת האוטומציה?</td>
+            <td class="yes-cell"></td>
+            <td class="no-cell"></td>
+        </tr>
+        <tr>
+            <td class="number-cell">19</td>
+            <td class="question-cell">האם סיימתם לאפיין את כל סוגי הבדיקות הרצויות לבדיקת המערכת? (לדוגמה: בדיקות UI, בדיקות API, בדיקות עומסים, בדיקות אבטחה – בדיקות פונקציונליות וגם לא-פונקציונליות).</td>
+            <td class="yes-cell"></td>
+            <td class="no-cell"></td>
+        </tr>
+        <tr>
+            <td class="number-cell">20</td>
+            <td class="question-cell">האם פרויקט האוטומציה מנוהל היטב באמצעות כלי ניהול פרויקטים כדוגמת Jira? (מתקיים מעקב אחר סטטוס משימות, אחוז כיסוי הבדיקות, עדכון אוטומטי של סטטוס בדיקות וכו')</td>
+            <td class="yes-cell"></td>
+            <td class="no-cell"></td>
+        </tr>
+    </table>
+    <br>
+    <div id="score-div">ציון: <span id="score">0</span></div>
+    </div>
+</body>
+</html>
